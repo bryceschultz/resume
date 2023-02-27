@@ -1,4 +1,4 @@
-#body {
+#dynamic-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11,7 +11,10 @@
   } 
 }
 
-
-#body > div {
+div > div {
   margin-bottom: 20px;
+}
+
+hr {
+  border: 1px solid grey;
 }

@@ -1,0 +1,52 @@
+
+
+.card-image {
+    padding: 2rem 2rem 0 2rem;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.relative {
+    position: relative!important;
+}
+
+@media (max-width: 1040px) {
+    button {
+        margin-bottom: 2rem;
+    }
+    .modal {
+        margin: 20px;
+    }
+}
+
+
+.modal-container {
+    z-index: 50;
+    width: 100%;
+    position: fixed;
+}
+
+.modal-sub-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 0 !important;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(111,111,111,0.5); // Here you choose the color and opacity that you want to apply
+    z-index: 9; // You may need to manage the z-index values to make your overlay to stay behind your popup 
+}

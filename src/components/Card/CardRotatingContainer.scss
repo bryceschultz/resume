@@ -1,0 +1,29 @@
+.experience-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    button {
+        align-self: center;
+    }
+}
+
+
+@media (max-width: 1040px) {
+    .experience-cards {
+        flex-wrap: wrap;
+
+    } 
+    
+    .place-holder-buttons {
+        display: none;
+    }
+
+
+    #display-last-btn {
+        margin: 20px;
+    }
+    #display-next-btn {
+        margin: 20px;
+    }
+  }
+  

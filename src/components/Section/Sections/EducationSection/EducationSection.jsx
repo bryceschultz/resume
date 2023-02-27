@@ -1,8 +1,8 @@
 import TitleAndSubtitle from "../../TitleAndSubtitle";
 
-const relevantCoursework = ["DS768 – Forecasting Analytics", "DS773 – Database Management and Systems Analysis", 
-        "DS766 – Business Analytics and Spreadsheet Modelling", "ADMN410 – Management Information Systems",
-        "DS562 – Business Applications Development", "DS775 – Corporate Project Experience"]
+const relevantCoursework = ["DS768 – Forecasting Analytics", "DS562 – Business Applications Development",
+                            "DS773 – Database Management and Systems Analysis", "DS766 – Business Analytics and Spreadsheet Modelling", 
+                            "ADMN410 – Management Information Systems"]
 
 const EducationSection = () => {
     return (
@@ -14,9 +14,9 @@ const EducationSection = () => {
             date="June 2019"
         />
         </ul>
-        <p class="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-3">Relevant coursework: </p>
-        <ul class="list-disc list-inside flex flex-wrap flex-col">
-            {relevantCoursework.map((course => <li class="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{course}</li>))}
+        <p className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-3">Relevant coursework: </p>
+        <ul className="list-disc list-inside flex flex-wrap flex-col">
+            {relevantCoursework.map(((course, i) => <li key={i} className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{course}</li>))}
         </ul>
         </>
     )

@@ -6,10 +6,10 @@ const Header = () => {
     return (
         <>
         <div id="title-info">
-            <p class="inline-block normal-case text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-700">
+        <p className="inline-block normal-case text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-700">
                 Bryce Schultz
             </p>
-            <p class="mt-2 mb-10 text-lg text-slate-500">
+            <p className="text-lg text-slate-500">
                 Software Engineer
             </p>
         </div>
