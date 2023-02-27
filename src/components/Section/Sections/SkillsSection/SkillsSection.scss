@@ -59,8 +59,10 @@ $animationSpeed: 40s;
 	}
 }
 
-@media (max-width: 1040px) {
+
+@media (max-width: 850px) {
 	.slider {	
+		width: 70vw;
 		&::before,
 		&::after {
 			background: none;
