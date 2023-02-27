@@ -6,7 +6,7 @@
 }
 
 @media (max-width: 850px) {
-  #body {
+  #dynamic-content {
     margin: 80px 60px 80px 60px;
   } 
 }

@@ -7,7 +7,7 @@ const Card = ({image, title, company, highlightedWork}) => {
     return (
         <>
         <div className="card-container w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-start items-center">
             <img className="card-image" src={image} />
             <span className="text-sm text-gray-500 dark:text-gray-400">{title}</span>
             <div className="flex mt-4 space-x-3 md:mt-6">
