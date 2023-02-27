@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import TitleAndSubtitle from "../../TitleAndSubtitle";
 import './ExperienceSection.scss';
 import { useInformalToggleContext } from "../../../Toggle/context/InformalToggleContext";
-import 'react-vertical-timeline-component/style.min.css';
 import LM_Logo from '../../../../assets/images/LibertyMutual_Logo.png';
 import ACN_Logo from '../../../../assets/images/Accenture_Logo.png';
 import CardRotatingContainer from "../../../Card/CardRotatingContainer";
