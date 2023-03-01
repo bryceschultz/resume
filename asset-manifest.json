@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.6cc7c4d8.css",
-    "main.js": "/resume/static/js/main.50319f42.js",
+    "main.css": "/resume/static/css/main.57e70d75.css",
+    "main.js": "/resume/static/js/main.8b4b7240.js",
     "static/js/787.dc9ee2bf.chunk.js": "/resume/static/js/787.dc9ee2bf.chunk.js",
     "static/media/Accenture_Logo.png": "/resume/static/media/Accenture_Logo.b5019c426c3b02fe3699.png",
     "static/media/LibertyMutual_Logo.png": "/resume/static/media/LibertyMutual_Logo.6e92ebe6bb41838d6e79.png",
+    "static/media/UNH_Logo.svg": "/resume/static/media/UNH_Logo.5878c9c67210dbf95a62863673e33136.svg",
     "index.html": "/resume/index.html",
-    "main.6cc7c4d8.css.map": "/resume/static/css/main.6cc7c4d8.css.map",
-    "main.50319f42.js.map": "/resume/static/js/main.50319f42.js.map",
+    "main.57e70d75.css.map": "/resume/static/css/main.57e70d75.css.map",
+    "main.8b4b7240.js.map": "/resume/static/js/main.8b4b7240.js.map",
     "787.dc9ee2bf.chunk.js.map": "/resume/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cc7c4d8.css",
-    "static/js/main.50319f42.js"
+    "static/css/main.57e70d75.css",
+    "static/js/main.8b4b7240.js"
   ]
 }
