@@ -6,6 +6,7 @@ import SectionContainer from './components/Section/SectionContainer';
 import ExperienceSection from './components/Section/Sections/ExperienceSection/ExperienceSection';
 import EducationSection from './components/Section/Sections/EducationSection/EducationSection';
 import SkillsSection from './components/Section/Sections/SkillsSection/SkillsSection';
+import RecentTraining from './components/Section/Sections/RecentTraining/RecentTraining';
 import Toggle from './components/Toggle/Toggle';
 import { InformalToggleContextProvider } from './components/Toggle/context/InformalToggleContext';
 
@@ -19,18 +20,21 @@ function App() {
 
   return (
     <InformalToggleContextProvider initialState={false}>
-    <Toggle />
+      <Toggle />
       <div id="dynamic-content">
-            <Header />
-            <SectionContainer headerText="Experience">
-            <ExperienceSection />
-            </SectionContainer>
-            <SectionContainer headerText="Education">
-            <EducationSection />
-            </SectionContainer>
-            <SectionContainer headerText="Skills">
-            <SkillsSection />
-            </SectionContainer>
+        <Header />
+        <SectionContainer headerText="Experience">
+          <ExperienceSection />
+        </SectionContainer>
+        <SectionContainer headerText="Education">
+          <EducationSection />
+        </SectionContainer>
+        <SectionContainer headerText="Skills">
+          <SkillsSection />
+        </SectionContainer>
+        <SectionContainer headerText="Recent Training">
+          <RecentTraining />
+        </SectionContainer>
       </div>
     </InformalToggleContextProvider>
   );
