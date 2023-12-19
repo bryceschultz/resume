@@ -20,33 +20,22 @@ const EducationSection = () => {
             {(informalToggle) ? (
                 <CardRotatingContainer>
                     <EducationCard
-                        school="Peter T. Paul College of Business and Economics"
-                        major="Information Systems & Business Analytics"
-                        gpa={3.5}
-                        logo={UNH_Logo}
-                        id={0}
-                    />
-                    <EducationCard
                         school="Boston University"
                         major="Master's in Computer Science"
                         gpa={4.0}
                         logo={BU_Logo}
+                        id={0}
+                    />
+                    <EducationCard
+                        school="Peter T. Paul College of Business and Economics"
+                        major="Information Systems & Business Analytics"
+                        gpa={3.5}
+                        logo={UNH_Logo}
                         id={1}
                     />
                 </CardRotatingContainer>
             ) : (
                 <>
-                    <ul>
-                        <TitleAndSubtitle
-                            title="University of New Hampshire"
-                            subtitle="Business Administration, Information Systems and Business Analytics, GPA 3.5"
-                            date="June 2019"
-                        />
-                    </ul>
-                    <p className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-3">Relevant coursework: </p>
-                    <ul className="list-disc list-inside flex flex-wrap flex-col mb-10">
-                        {unhRelevantCoursework.map(((course, i) => <li key={i} className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{course}</li>))}
-                    </ul>
                     <ul>
                         <TitleAndSubtitle
                             title="Boston University"
@@ -55,8 +44,19 @@ const EducationSection = () => {
                         />
                     </ul>
                     <p className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-3">Relevant coursework: </p>
-                    <ul className="list-disc list-inside flex flex-wrap flex-col">
+                    <ul className="list-disc list-inside flex flex-wrap flex-col mb-10">
                         {buRelevantCoursework.map(((course, i) => <li key={i} className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{course}</li>))}
+                    </ul>
+                    <ul>
+                        <TitleAndSubtitle
+                            title="University of New Hampshire"
+                            subtitle="Business Administration, Information Systems and Business Analytics, GPA 3.5"
+                            date="June 2019"
+                        />
+                    </ul>
+                    <p className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-3">Relevant coursework: </p>
+                    <ul className="list-disc list-inside flex flex-wrap flex-col">
+                        {unhRelevantCoursework.map(((course, i) => <li key={i} className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{course}</li>))}
                     </ul>
                 </>
             )}

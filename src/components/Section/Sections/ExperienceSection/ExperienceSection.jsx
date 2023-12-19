@@ -5,7 +5,7 @@ import { useInformalToggleContext } from "../../../Toggle/context/InformalToggle
 import LM_Logo from '../../../../assets/images/LibertyMutual_Logo.png';
 import ACN_Logo from '../../../../assets/images/Accenture_Logo.png';
 import CardRotatingContainer from "../../../Card/CardRotatingContainer";
-import Card from "../../../Card/ExperienceCard/ExperienceCard";
+import ExperienceCard from "../../../Card/ExperienceCard/ExperienceCard";
 
 const libertyExperience = [
     'Spearheaded the development of critical components and functionality for a global auditing application.',
@@ -27,14 +27,14 @@ const ExperienceSection = () => {
             {(informalToggle ) ? (
                 <>
                 <CardRotatingContainer>
-                    <Card 
+                    <ExperienceCard
                         company="Liberty Mutual"
                         image={LM_Logo}
                         title="Software Engineer"
                         highlightedWork={libertyExperience}
                         id={0}
                     />
-                    <Card 
+                    <ExperienceCard
                         company="Accenture"
                         image={ACN_Logo}
                         title="Technology Associate"
