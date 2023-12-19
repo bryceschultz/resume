@@ -1,11 +1,16 @@
 import TitleAndSubtitle from "../../TitleAndSubtitle";
 import { useInformalToggleContext } from "../../../Toggle/context/InformalToggleContext";
 import UNH_Logo from '../../../../assets/images/UNH_Logo.svg';
+import BU_Logo from '../../../../assets/images/BU_Logo.png';
 import './EducationSection.scss';
+import CardRotatingContainer from "../../../Card/CardRotatingContainer";
+import EducationCard from "../../../Card/EducationCard/EducationCard";
 
-const relevantCoursework = ["DS768 – Forecasting Analytics", "DS562 – Business Applications Development",
+const unhRelevantCoursework = ["DS768 – Forecasting Analytics", "DS562 – Business Applications Development",
     "DS773 – Database Management and Systems Analysis", "DS766 – Business Analytics and Spreadsheet Modelling",
     "ADMN410 – Management Information Systems"]
+const buRelevantCoursework = ["CS232 – Programming with Java", "CS342 – Data Structures with Java",
+    "CS472 – Computer Architecture"]
 
 const EducationSection = () => {
     const { informalToggle } = useInformalToggleContext();
@@ -13,22 +18,22 @@ const EducationSection = () => {
     return (
         <>
             {(informalToggle) ? (
-                <div id="education-informal">
-                    <div style={{maxWidth:"500px"}}>
-                    <img src={UNH_Logo} />  
-                    <div className="gpa-details">
-                    <p className="text-elem shrink-0 text-left text-gray-700 text-3xl font-semibold z-10">3.5 GPA</p>
-                    <div class="progress-bar">
-                    <div class="relative flex flex-wrap items-center w-full bg-blue-100 h-2 rounded-lg">
-                    <div class="bg-blue-500 flex-col h-full rounded-lg" style={{width: "87.5%", transition: "all 2s ease 0s"}}>
-                        </div>
-                        </div>
-                        </div>              
-                    <p className="text-elem shrink-0 mt-0 text-left text-gray-500 text-sm font-normal z-10">Information Systems & Business Analytics</p>
-                    <p className="text-elem shrink-0 mt-0 text-left text-gray-500 text-sm font-normal z-10">Peter T. Paul College of Business and Economics</p>
-                    </div>
-                    </div>
-                </div>
+                <CardRotatingContainer>
+                    <EducationCard
+                        school="Peter T. Paul College of Business and Economics"
+                        major="Information Systems & Business Analytics"
+                        gpa={3.5}
+                        logo={UNH_Logo}
+                        id={0}
+                    />
+                    <EducationCard
+                        school="Boston University"
+                        major="Master's in Computer Science"
+                        gpa={4.0}
+                        logo={BU_Logo}
+                        id={1}
+                    />
+                </CardRotatingContainer>
             ) : (
                 <>
                     <ul>
@@ -39,8 +44,19 @@ const EducationSection = () => {
                         />
                     </ul>
                     <p className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-3">Relevant coursework: </p>
+                    <ul className="list-disc list-inside flex flex-wrap flex-col mb-10">
+                        {unhRelevantCoursework.map(((course, i) => <li key={i} className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{course}</li>))}
+                    </ul>
+                    <ul>
+                        <TitleAndSubtitle
+                            title="Boston University"
+                            subtitle="Master's in Computer Science, GPA 4.0"
+                            date="June 2023 - Current"
+                        />
+                    </ul>
+                    <p className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-3">Relevant coursework: </p>
                     <ul className="list-disc list-inside flex flex-wrap flex-col">
-                        {relevantCoursework.map(((course, i) => <li key={i} className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{course}</li>))}
+                        {buRelevantCoursework.map(((course, i) => <li key={i} className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{course}</li>))}
                     </ul>
                 </>
             )}

@@ -9,6 +9,7 @@ const CardRotatingContainer = ({children}) => {
     const displayLastExperience = () => {
         setActiveCard(children[activeCard.props.id - 1])
     }
+    
     return (
         <div className="experience-cards">
         {( activeCard.props.id !== 0 ) ? (

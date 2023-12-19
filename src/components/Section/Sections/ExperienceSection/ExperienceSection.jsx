@@ -5,26 +5,18 @@ import { useInformalToggleContext } from "../../../Toggle/context/InformalToggle
 import LM_Logo from '../../../../assets/images/LibertyMutual_Logo.png';
 import ACN_Logo from '../../../../assets/images/Accenture_Logo.png';
 import CardRotatingContainer from "../../../Card/CardRotatingContainer";
-import Card from "../../../Card/Card";
+import Card from "../../../Card/ExperienceCard/ExperienceCard";
 
 const libertyExperience = [
-    `Responsibilities include building out new components/functionality, developing unit tests, 
-    fixing bugs, and working with the business users to understand priority and timing of new features
-     for an auditing application with over 200 users globally.`,
-    `Developed a data pipeline application which makes complex data sets available in a format
-    that's easily consumable by the catastrophe modelling team for hurricane, tornado, and terrorism modelling and 
-    is expected to save the IT Team $20,000 annually.`,
-    `Developed an API that is currently in production that enables the catastrophe modeling team to upload peril maps for underwriters to
-    more accurately evaluate the risk associated with a particular policy/location.`
+    'Spearheaded the development of critical components and functionality for a global auditing application.',
+    'Used Java and JavaScript to implement new features, write unit tests, and debug issues within the platform.',
+    'Engineered a groundbreaking data pipeline application, streamlining complex data sets for the catastrophe modeling team and resulting in an annual cost savings of $20,000 for the IT Team.',
+    'Successfully deployed a production-ready API empowering the catastrophe modeling team to upload peril maps, significantly enhancing risk evaluation for underwriters.'
 ]
 const accentureExperience = [
-    `Worked as the lead Business Analyst for a global pharmaceutical client to consolidate their 
-    Veeva CRM systems post merger across 30+ countries.`,
-    `Work involved coordinating new country onboarding, user story development, software development, testing,
-     user migration, and final sign off from IT directors.`,
-    `Developed a Salesforce communities portal for a state within the U.S. which allowed 
-    essential workers to receive subsidized childcare during the pandemic. Wrote Apex
-    code which persists in the production environment.`
+    'Led as the principal Business Analyst for a multinational pharmaceutical client, orchestrating the consolidation of Veeva CRM systems across 30+ countries post-merger.',
+    'Coordinated end-to-end processes, including new country onboarding, user story development, software development, testing, user migration, and final approval from IT directors.',
+    'Developed a Salesforce communities portal for a U.S. state, facilitating subsidized childcare for essential workers during the pandemic.'
 ]
 
 const ExperienceSection = () => {
@@ -57,7 +49,7 @@ const ExperienceSection = () => {
                     <TitleAndSubtitle
                         title="Liberty Mutual Insurance"
                         subtitle="Software Engineer"
-                        date="November 2021 - Present"
+                        date="November 2020 - Present"
                     />
                     <ul className="list-disc list-inside bullet-list mb-5">
                         {libertyExperience.map(((bullet, i) => <li key={i} className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{bullet}</li>))}
@@ -65,7 +57,7 @@ const ExperienceSection = () => {
                     <TitleAndSubtitle
                         title="Accenture"
                         subtitle="Technology Associate"
-                        date="October 2020 - November 2021"
+                        date="October 2019 - November 2020"
                     />
                     <ul className="list-disc list-inside bullet-list">
                         {accentureExperience.map(((bullet, i) => <li key={i} className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{bullet}</li>))}

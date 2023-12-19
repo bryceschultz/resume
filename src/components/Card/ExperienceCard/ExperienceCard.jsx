@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import './Card.scss';
+import './ExperienceCard.scss';
 
-const Card = ({image, title, company, highlightedWork}) => {
+const ExperienceCard = ({image, title, company, highlightedWork}) => {
     const [showModal, setShowModal] = useState(false);
     
     return (
@@ -28,7 +28,7 @@ const Card = ({image, title, company, highlightedWork}) => {
                             <h3 className="text-xl font-medium text-gray-900 dark:text-white">While at {company}</h3>
                         </div>
                         <div className="p-6">
-                            {highlightedWork.map((bullet => <li className="leading-relaxed text-sm text-gray-500 dark:text-gray-400">{bullet}</li>))}
+                            {highlightedWork?.map((bullet => <li className="leading-relaxed text-sm text-gray-500 dark:text-gray-400">{bullet}</li>))}
 
                         </div>
                     </div>
@@ -40,4 +40,4 @@ const Card = ({image, title, company, highlightedWork}) => {
     )
 }
 
-export default Card;
+export default ExperienceCard;
