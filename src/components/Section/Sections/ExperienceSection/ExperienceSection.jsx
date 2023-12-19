@@ -12,7 +12,7 @@ const libertyExperience = [
     'Used Java and JavaScript to implement new features, write unit tests, and debug issues within the platform.',
     'Engineered a groundbreaking data pipeline application, streamlining complex data sets for the catastrophe modeling team and resulting in an annual cost savings of $20,000 for the IT Team.',
     'Successfully deployed a production-ready API empowering the catastrophe modeling team to upload peril maps, significantly enhancing risk evaluation for underwriters.',
-    'As a key member of the Corporate Finance Leaders group, I led surveys across teams within the organization and presented results to upper management.'
+    'Was invited by management to join the Corporate Finance Leaders group, where I led surveys across the organization and presented results back to upper management.'
 ]
 const accentureExperience = [
     'Led as the principal Business Analyst for a multinational pharmaceutical client, orchestrating the consolidation of Veeva CRM systems across 30+ countries post-merger.',
