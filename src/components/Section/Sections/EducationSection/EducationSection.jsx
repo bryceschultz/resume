@@ -10,7 +10,7 @@ const unhRelevantCoursework = ["DS768 – Forecasting Analytics", "DS562 – Bus
     "DS773 – Database Management and Systems Analysis", "DS766 – Business Analytics and Spreadsheet Modelling",
     "ADMN410 – Management Information Systems"]
 const buRelevantCoursework = ["CS232 – Programming with Java", "CS342 – Data Structures with Java",
-    "CS472 – Computer Architecture"]
+    "CS472 – Computer Architecture", "CS662 - Computer Language Theory"]
 
 const EducationSection = () => {
     const { informalToggle } = useInformalToggleContext();
