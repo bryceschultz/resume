@@ -10,9 +10,9 @@ import ExperienceCard from "../../../Card/ExperienceCard/ExperienceCard";
 const libertyExperience = [
     'Spearheaded the development of critical components and functionality for a global auditing application.',
     'Used Java and JavaScript to implement new features, write unit tests, and debug issues within the platform.',
-    'Engineered an innovative data pipeline application, streamlining complex data sets for the catastrophe modeling team and resulting in an annual cost savings of $20,000 for the IT team.',
+    'Engineered an innovative data pipeline application, streamlining complex data sets for the catastrophe modeling team resulting in an annual cost savings of $20,000 for the IT team.',
     'Successfully deployed a production-ready API empowering the catastrophe modeling team to upload peril maps, significantly enhancing risk evaluation for underwriters.',
-    'Invited by management to join the Corporate Functions Leaders group, where I led surveys across the organization and presented results back to upper management.'
+    'Invited by management to join the Corporate Functions Leaders group, where I led employee sentiment surveys across the organization and presented results back to upper management.'
 ]
 const accentureExperience = [
     'As the Principal Business Analyst for a multinational pharmaceutical client, orchestrated the consolidation of Veeva CRM systems across 30+ countries post-merger.',
