@@ -2,7 +2,7 @@ import { useInformalToggleContext } from "../../../Toggle/context/InformalToggle
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './SkillsSection.scss';
 
-const skills = ["HTML", "CSS", "Javascript", "ReactJS", "NodeJS", "Java", 
+const skills = ["HTML, CSS, Javascript", "ReactJS", "NodeJS", "Java", "Spring, Springboot",
                 "SQL", "Python"]
 const SkillsSection = () => {
     const { informalToggle } = useInformalToggleContext();
