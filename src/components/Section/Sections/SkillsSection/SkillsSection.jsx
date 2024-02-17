@@ -2,8 +2,11 @@ import { useInformalToggleContext } from "../../../Toggle/context/InformalToggle
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './SkillsSection.scss';
 
-const skills = ["HTML, CSS, JS", "ReactJS", "NodeJS", "Java", "Spring, Springboot",
-                "SQL", "Python"]
+const skills = ["Programming Languages: HTML, CSS, JavaScript, Java, Python",
+                 "Frameworks/Libraries: ReactJS, NodeJS, Spring, Springboot",
+                 "Database Technologies: SQL, SQL Server, MySQL, Postgres",
+                "AWS: S3, ECS, Lambda, SQS, SNS, CDK, CFT, RDS",
+                "Azure: IdP, AD, Blob Storage, SMB"]
 const SkillsSection = () => {
     const { informalToggle } = useInformalToggleContext();
 
@@ -60,7 +63,7 @@ const SkillsSection = () => {
             </>
         ) : (
             <>
-            <ul className="list-disc list-inside flex flex-wrap flex-col h-24">
+            <ul className="list-disc list-inside flex flex-wrap flex-col">
                 {skills.map(((skill, i) => <li key={i} className="text-elem shrink-0 text-left text-sm font-normal mt-1">{skill}</li>))}
             </ul>
             </>

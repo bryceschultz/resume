@@ -12,6 +12,7 @@ import { InformalToggleContextProvider } from './components/Toggle/context/Infor
 
 import fontawesome from '@fortawesome/fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import ProfessionalSummary from './components/Section/Sections/ProfessionalSummary/ProfessionalSummary';
 
 
 fontawesome.library.add(fab);
@@ -23,14 +24,17 @@ function App() {
       <Toggle />
       <div id="dynamic-content">
         <Header />
-        <SectionContainer headerText="Experience">
-          <ExperienceSection />
+        <SectionContainer headerText="Professional Summary">
+          <ProfessionalSummary />
         </SectionContainer>
         <SectionContainer headerText="Education">
           <EducationSection />
         </SectionContainer>
         <SectionContainer headerText="Skills">
           <SkillsSection />
+        </SectionContainer>
+        <SectionContainer headerText="Experience">
+          <ExperienceSection />
         </SectionContainer>
         <SectionContainer headerText="Recent Training">
           <RecentTraining />
