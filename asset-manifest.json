@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.bc1268c2.css",
+    "main.css": "/resume/static/css/main.d4d8619f.css",
     "main.js": "/resume/static/js/main.fc5a0ce2.js",
     "static/js/787.dc9ee2bf.chunk.js": "/resume/static/js/787.dc9ee2bf.chunk.js",
     "static/media/BU_Logo.png": "/resume/static/media/BU_Logo.c897ca2d673dda1022b3.png",
@@ -8,12 +8,12 @@
     "static/media/LibertyMutual_Logo.png": "/resume/static/media/LibertyMutual_Logo.6e92ebe6bb41838d6e79.png",
     "static/media/UNH_Logo.svg": "/resume/static/media/UNH_Logo.5878c9c67210dbf95a62863673e33136.svg",
     "index.html": "/resume/index.html",
-    "main.bc1268c2.css.map": "/resume/static/css/main.bc1268c2.css.map",
+    "main.d4d8619f.css.map": "/resume/static/css/main.d4d8619f.css.map",
     "main.fc5a0ce2.js.map": "/resume/static/js/main.fc5a0ce2.js.map",
     "787.dc9ee2bf.chunk.js.map": "/resume/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc1268c2.css",
+    "static/css/main.d4d8619f.css",
     "static/js/main.fc5a0ce2.js"
   ]
 }
