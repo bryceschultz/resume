@@ -4,7 +4,7 @@ import './SkillsSection.scss';
 
 const skills = ["Programming Languages: HTML, CSS, JavaScript, Java, Python",
                  "Frameworks/Libraries: ReactJS, NodeJS, Spring, Springboot",
-                 "Database Technologies: SQL, SQL Server, MySQL, Postgres",
+                 "Database Technologies: SQL, SQL Server, MySQL, Postgres, MongoDB",
                 "AWS: S3, ECS, Lambda, SQS, SNS, CDK, CFT, RDS",
                 "Azure: IdP, AD, Blob Storage, SMB"]
 const SkillsSection = () => {
@@ -57,6 +57,9 @@ const SkillsSection = () => {
                 </div>
                 <div className="slide">
                     <FontAwesomeIcon icon={['fab', 'python']}  />
+                </div>
+                <div className="slide">
+                    <FontAwesomeIcon icon={['fab', 'aws']}  />
                 </div>
             </div>
         </div>

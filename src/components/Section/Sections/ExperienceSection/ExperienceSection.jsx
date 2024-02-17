@@ -8,10 +8,13 @@ import CardRotatingContainer from "../../../Card/CardRotatingContainer";
 import ExperienceCard from "../../../Card/ExperienceCard/ExperienceCard";
 
 const libertyExperience = [
-    'Spearheaded the development of critical components and functionality for a global auditing application.',
-    'Used Java and JavaScript to implement new features, write unit tests, and debug issues within the platform.',
-    'Engineered an innovative data pipeline application, streamlining complex data sets for the catastrophe modeling team resulting in an annual cost savings of $20,000 for the IT team.',
-    'Successfully deployed a production-ready API empowering the catastrophe modeling team to upload peril maps, significantly enhancing risk evaluation for underwriters.',
+    'Spearheaded the development of critical components and functionality for a global internal auditing application. (Java/Spring/React)',
+    'Developed and supported a fraud auditing application. (Mongo/Express/React/Node)',
+    'Wrote python scripts to download files/data from internal auditing application to provide to impacted employees/auditors post divestiture. (Python/PyMySQL/AWS SDK/S3)',
+    'Developed AWS Lambdas to move files from SharePoint to S3 after an audit had been completed for long term storage & cost savings. (CDK/SQS/Lambda/JavaScript)',
+    'Engineered an innovative data pipeline application, streamlining complex data sets for the catastrophe modeling team resulting in an annual cost savings of $20,000 for the IT team. (Python/Numpy/Pandas)',
+    'Successfully deployed a production-ready API empowering the catastrophe modeling team to upload peril maps, significantly enhancing risk evaluation for underwriters. (ESRI)',
+    'Developed bash scripts to setup virtual machines with appropriate software for catastrophe modelers. (Azure Blob/SMB/Bash/PowerShell)',
     'Invited by management to join the Corporate Functions Leaders group, where I led employee sentiment surveys across the organization and presented results back to upper management.'
 ]
 const accentureExperience = [
