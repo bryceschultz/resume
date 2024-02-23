@@ -43,10 +43,10 @@ const EducationSection = () => {
                             date="June 2023 - Current"
                         />
                     </ul>
-                    <p className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-3">Relevant coursework: </p>
-                    <ul className="list-disc list-inside flex flex-wrap flex-col mb-10">
-                        {buRelevantCoursework.map(((course, i) => <li key={i} className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{course}</li>))}
-                    </ul>
+                    <p className="mb-1 text-elem shrink-0 mt-0 text-left text-sm font-normal mt-3">Relevant coursework: </p>
+                    <div className="flex flex-wrap">
+                        {buRelevantCoursework.map(((course, i) => <span class="mr-5 mb-2 bg-gray-100 text-gray-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">{course}</span>))}
+                    </div>
                     <ul>
                         <TitleAndSubtitle
                             title="University of New Hampshire"
@@ -54,10 +54,10 @@ const EducationSection = () => {
                             date="June 2019"
                         />
                     </ul>
-                    <p className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-3">Relevant coursework: </p>
-                    <ul className="list-disc list-inside flex flex-wrap flex-col">
-                        {unhRelevantCoursework.map(((course, i) => <li key={i} className="text-elem shrink-0 mt-0 text-left text-sm font-normal mt-1">{course}</li>))}
-                    </ul>
+                    <p className="mb-1 text-elem shrink-0 mt-0 text-left text-sm font-normal mt-3">Relevant coursework: </p>
+                    <div className="flex flex-wrap">
+                        {unhRelevantCoursework.map(((course, i) => <span class="mr-5 mb-2 bg-gray-100 text-gray-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">{course}</span>))}
+                    </div>
                 </>
             )}
         </>

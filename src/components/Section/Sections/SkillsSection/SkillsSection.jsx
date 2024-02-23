@@ -7,6 +7,7 @@ const skills = ["Programming Languages: HTML, CSS, JavaScript, Java, Python",
                  "Database Technologies: SQL, SQL Server, MySQL, Postgres, MongoDB",
                 "AWS: S3, ECS, Lambda, SQS, SNS, CDK, CFT, RDS",
                 "Azure: IdP, AD, Blob Storage, SMB"]
+
 const SkillsSection = () => {
     const { informalToggle } = useInformalToggleContext();
 
