@@ -2,7 +2,7 @@ import { useInformalToggleContext } from "../../../Toggle/context/InformalToggle
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './SkillsSection.scss';
 
-const skills = ["Programming Languages: HTML, CSS, JavaScript, Java, Python",
+const skills = ["Programming Languages: HTML, CSS, JavaScript, TypeScript, Java, Python",
                  "Frameworks/Libraries: ReactJS, NodeJS, Spring, Springboot",
                  "Database Technologies: SQL, SQL Server, MySQL, Postgres, MongoDB",
                 "AWS: S3, ECS, Lambda, SQS, SNS, CDK, CFT, RDS",
