@@ -8,9 +8,10 @@ import CardRotatingContainer from "../../../Card/CardRotatingContainer";
 import ExperienceCard from "../../../Card/ExperienceCard/ExperienceCard";
 
 const libertyExperience = [
-    'Spearheaded the development of critical components and functionality for a global internal auditing application. (Java/Spring/React)',
+    'Spearheaded the development and planning of new feature/functionality rollout for a global internal auditing application in a production environment, using feature flags where appropriate. (Java/Spring/React)',
+    'Responsible for investigating and fixing production issues if and when they arrive.',
+    'Solved a scaling problem in a python script which downloaded files/data from internal auditing application to provide to impacted employees/auditors post divestiture. (Python/PyMySQL/AWS SDK/S3)',
     'Developed and supported a fraud auditing application. (Mongo/Express/React/Node)',
-    'Wrote python scripts to download files/data from internal auditing application to provide to impacted employees/auditors post divestiture. (Python/PyMySQL/AWS SDK/S3)',
     'Developed AWS Lambdas to move files from SharePoint to S3 after an audit had been completed for long term storage & cost savings. (CDK/SQS/Lambda/JavaScript)',
     'Engineered an innovative data pipeline application, streamlining complex data sets for the catastrophe modeling team resulting in an annual cost savings of $20,000 for the IT team. (Python/Numpy/Pandas)',
     'Successfully deployed a production-ready API empowering the catastrophe modeling team to upload peril maps, significantly enhancing risk evaluation for underwriters. (ESRI)',
